@@ -1,46 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@use 'variables';
+@use 'initial';
+@use 'mixins';
 
-$ActiveInputBorder: Linear-gradient(
-    hsl(249, 99%, 64%) to 
-    hsl(278, 94%, 30%));
-$InputErrors: hsl(0, 100%, 66%);
-$White: hsl(0, 0%, 100%);
-$LightGrayishViolet: hsl(270, 3%, 87%);
-$DarkGrayishViolet: hsl(279, 6%, 55%);
-$VeryDarkViolet: hsl(278, 68%, 11%);
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+.container{
+    border: 1px solid #000;
+    width: 23.4375rem;
+    margin: 0 auto;
+    &__bg-section{
+        border: 1px solid #000;
+        height: 15rem;
+        background-image: url(../images/bg-main-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    &__form-section{
+        padding: 90px 24px 45px;
+    }
+    @media (min-width: 1440px){
+        width: 90rem;
+        display: flex;
+        &__bg-section{
+            background-image: url(../images/bg-main-desktop.png);
+        }
+    }
 }
-body{
+
+.bg-section__card-front{
+    @include mixins.card('../images/bg-card-front.png');
+    @include mixins.card-position(126px, 18px,187px, 167px);
+    z-index: 1;
 
 }
+.bg-section__card-back{
+    @include mixins.card('../images/bg-card-back.png');
+    @include mixins.card-position(30px, 75px, 468px, 257px);
+}
+
+
+
+
+
+
+
+
+
+
 
 .hidden{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution { 
     font-size: 11px;
     text-align: center;

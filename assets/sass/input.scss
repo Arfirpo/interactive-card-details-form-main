@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+$ActiveInputBorder: Linear-gradient(
+    hsl(249, 99%, 64%) to 
+    hsl(278, 94%, 30%));
+$InputErrors: hsl(0, 100%, 66%);
+$White: hsl(0, 0%, 100%);
+$LightGrayishViolet: hsl(270, 3%, 87%);
+$DarkGrayishViolet: hsl(279, 6%, 55%);
+$VeryDarkViolet: hsl(278, 68%, 11%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}

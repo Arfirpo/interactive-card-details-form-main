@@ -1,0 +1,25 @@
+.container{
+    width: 23.4375rem;
+    margin: auto;
+    &__bg-section{
+        height: 15rem;
+        background: {
+            image: url(../images/bg-main-mobile.png);
+            size: contain;
+            repeat: no-repeat;
+        }
+        position: relative;
+    }
+    &__form-section{
+        padding: 5.625rem 1.5rem 2.8125rem;
+    }
+    @media (min-width: 90rem){
+        width: 90rem;
+        display: flex;
+        &__bg-section{
+            background-image: url(../images/bg-main-desktop.png);
+            width: 56.25rem;
+            height: 56.25rem;
+        }
+    }
+}

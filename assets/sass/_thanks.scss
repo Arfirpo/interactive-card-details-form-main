@@ -1,0 +1,33 @@
+@use 'variables';
+@use 'form';
+
+.confirmation{
+    width: 23.4375rem;
+    margin: 0 auto;
+    margin-bottom: 3.75rem;
+    &__img{
+        display: block;
+        margin:  0 auto;
+        margin-bottom: 1.875rem;
+    }
+    &__thanks{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 800;
+        letter-spacing: .25rem;
+        color: variables.$VeryDarkViolet;
+        margin-bottom: 1.5rem;
+    }
+    &__message{
+        text-align: center;
+        color: variables.$DarkGrayishViolet;
+        font-size: 1.1em;
+        margin-bottom: 1.5rem;
+    }
+    &__button{
+        @extend .form__confirm-button
+    }
+    @media (min-width: 90rem){
+        margin-top: 180px;
+    }
+}

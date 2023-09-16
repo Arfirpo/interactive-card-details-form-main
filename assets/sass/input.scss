@@ -1,59 +1,10 @@
 @use 'variables';
 @use 'initial';
 @use 'mixins';
-
-.container{
-    border: 1px solid #000;
-    width: 23.4375rem;
-    margin: 0 auto;
-    &__bg-section{
-        border: 1px solid #000;
-        height: 15rem;
-        background-image: url(../images/bg-main-mobile.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    &__form-section{
-        padding: 90px 24px 45px;
-    }
-    @media (min-width: 1440px){
-        width: 90rem;
-        display: flex;
-        &__bg-section{
-            background-image: url(../images/bg-main-desktop.png);
-        }
-    }
-}
-
-.bg-section__card-front{
-    @include mixins.card('../images/bg-card-front.png');
-    @include mixins.card-position(126px, 18px,187px, 167px);
-    z-index: 1;
-
-}
-.bg-section__card-back{
-    @include mixins.card('../images/bg-card-back.png');
-    @include mixins.card-position(30px, 75px, 468px, 257px);
-}
-
-
-
-
-
-
-
-
-
-
-
-.hidden{
-    display: none;
-}
-.attribution { 
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-}
+@use 'cards';
+@use 'main';
+@use 'form';
+@use 'errors';
+@use 'thanks';
+@use 'hidden';
+@use 'attribution';

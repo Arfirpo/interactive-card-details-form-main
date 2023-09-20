@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/output.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Interactive card details form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive card details form</title>
   </head>
   <body>
     <main class="container">
@@ -25,46 +25,45 @@
           <p class="card-back__cvc">000</p>
         </div>
       </section>
-        <!-- form section -->
-        <section class="container__form-section">
-          <!-- form -->
-          <form class="form" action="">
-            <!-- card name -->
-            <label class="form__label" for="cardHolder">Cardholder Name</label>
-            <input class="form__input" type="text" name="cardHolder" id="cardHolder" placeholder="e.g. Jane Appleseed"></input>
-            <div class="form__input-cardHolder--error error"></div>
-            <!-- card number -->
-            <label class="form__label" for="cardNumbers">Card Number</label>
-            <input class="form__input" type="text" name="cardNumbers" id="cardNumbers" maxlength="19" placeholder="e.g. 1234 5678 9123 0000">
-            <div class="form__input-cardNumber--error error"></div>
-            <!-- card expiration date -->
-            <div class="form__expiration-cvc">
-              <label class="form__label" for="expirationMonth">Exp. Date (MM/YY)</label>
-              <!-- card cvc -->
-              <label class="form__label" for="cardCvc">CVC</label>
-              <div class="form__expiration-cvc__data">
-                <!-- expiration month -->
-                <input class="form__input" type="text" name="expirationMonth" id="expirationMonth" maxlength="2" placeholder="MM">
-                <!-- expiration year -->
-                <input class="form__input" type="text" name="expirationYear" id="expirationYear" maxlength="2" placeholder="YY">
-              </div>
-              <input class="form__input" type="text" name="cardCvc" id="cardCvc" maxlength="3" placeholder="e.g. 123">
-              <div class="form__error-container">
-                <div class="form__input-mm--error error"></div>
-                <div class="form__input-yy--error error"></div>
-              </div>
-              <div class="form__input-cvc--error error"></div>
+      <!-- form section -->
+      <section class="container__form-section">
+        <!-- form -->
+        <form class="form" action="">
+          <!-- card name -->
+          <label class="form__label" for="cardHolder">Cardholder Name</label>
+          <input class="form__input" type="text" name="cardHolder" id="cardHolder" placeholder="e.g. Jane Appleseed"></input>
+          <div class="form__input-cardHolder--error error"></div>
+          <!-- card number -->
+          <label class="form__label" for="cardNumbers">Card Number</label>
+          <input class="form__input" type="text" name="cardNumbers" id="cardNumbers" maxlength="19" placeholder="e.g. 1234 5678 9123 0000">
+          <div class="form__input-cardNumber--error error"></div>
+          <!-- card expiration date -->
+          <div class="form__expiration-cvc">
+            <label class="form__label" for="expirationMonth">Exp. Date (MM/YY)</label>
+            <!-- card cvc -->
+            <label class="form__label" for="cardCvc">CVC</label>
+            <div class="form__expiration-cvc__data">
+              <!-- expiration month -->
+              <input class="form__input" type="text" name="expirationMonth" id="expirationMonth" maxlength="2" placeholder="MM">
+              <!-- expiration year -->
+              <input class="form__input" type="text" name="expirationYear" id="expirationYear" maxlength="2" placeholder="YY">
             </div>
-            <button class="form__confirm-button" type="submit">Confirm</button>
-          </form>
-          <section class="confirmation">
-            <img class="confirmation__img" src="./assets/images/icon-complete.svg" alt="complete-icon">
-            <h1 class="confirmation__thanks">Thank you!</h1>
-            <p class="confirmation__message">We've added your card details</p>
-            <button class="confirmation__button" type="submit">Continue</button>
-          </section>
+            <input class="form__input" type="text" name="cardCvc" id="cardCvc" maxlength="3" placeholder="e.g. 123">
+            <div class="form__error-container">
+              <div class="form__input-mm--error error"></div>
+              <div class="form__input-yy--error error"></div>
+            </div>
+            <div class="form__input-cvc--error error"></div>
+          </div>
+          <button class="form__confirm-button" type="submit">Confirm</button>
+        </form>
+        <section class="confirmation">
+          <img class="confirmation__img" src="./assets/images/icon-complete.svg" alt="complete-icon">
+          <h1 class="confirmation__thanks">Thank you!</h1>
+          <p class="confirmation__message">We've added your card details</p>
+          <button class="confirmation__button" type="submit">Continue</button>
         </section>
-          
+      </section>
     </main>    
     <div class="attribution">
       <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/Arfirpo" target="_blank">Agustín R. Firpo</a>.

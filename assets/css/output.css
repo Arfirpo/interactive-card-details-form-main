@@ -207,19 +207,19 @@ body {
 
 .confirmation {
   display: none;
-  width: 23.4375rem;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
   margin-bottom: 3.75rem;
 }
 .confirmation__img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 1.875rem;
 }
 .confirmation__thanks {
   text-transform: uppercase;
   text-align: center;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.25rem;
   color: hsl(278, 68%, 11%);
   margin-bottom: 1.5rem;
@@ -230,7 +230,7 @@ body {
   font-size: 1.1em;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 90rem) {
+@media (min-width: 1440px) {
   .confirmation {
     margin-top: 180px;
   }

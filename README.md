@@ -65,6 +65,7 @@ Users should be able to:
 - Flexbox
 - [Sass](https://sass-lang.com/) - Css preprocessor
 - Mobile-first workflow
+- Javascript - for the inputs functionality
 
 ### What I learned 📚
 

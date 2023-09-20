@@ -28,14 +28,14 @@ body {
   z-index: 1;
   letter-spacing: 0.125rem;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card-front {
     width: 450px;
     height: 247px;
     padding: 30px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card-front {
     top: 187px;
     left: 167px;
@@ -54,7 +54,7 @@ body {
   justify-content: space-between;
   text-transform: uppercase;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card-front__logo {
     width: 86px;
     margin-bottom: 55px;
@@ -82,14 +82,14 @@ body {
   left: 75px;
   letter-spacing: 2px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card-back {
     width: 450px;
     height: 247px;
     padding: 30px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card-back {
     top: 468px;
     left: 257px;
@@ -101,7 +101,7 @@ body {
   text-align: right;
   padding-right: 0.625rem;
 }
-@media (min-width: 90rem) {
+@media (min-width: 1240px) {
   .card-back__cvc {
     font-size: 1em;
     margin-top: 5rem;
@@ -111,7 +111,7 @@ body {
 
 .container {
   width: 23.4375rem;
-  margin: auto;
+  margin: 0 auto;
 }
 .container__bg-section {
   height: 15rem;
@@ -123,9 +123,10 @@ body {
 .container__form-section {
   padding: 5.625rem 1.5rem 2.8125rem;
 }
-@media (min-width: 90rem) {
+@media (min-width: 1240px) {
   .container {
     width: 90rem;
+    margin: auto;
     display: flex;
   }
   .container__bg-section {
@@ -180,7 +181,7 @@ body {
 .form__confirm-button:hover, .confirmation__button:hover {
   cursor: pointer;
 }
-@media (min-width: 90rem) {
+@media (min-width: 1240px) {
   .form {
     margin-top: 11.25rem;
     width: 24.0625rem;
@@ -230,7 +231,7 @@ body {
   font-size: 1.1em;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .confirmation {
     margin-top: 180px;
   }

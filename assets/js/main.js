@@ -151,7 +151,6 @@ confirmButton.addEventListener('click', event=>{
         }
     };
     if(validateName == true && validateNumber && true && validateMonth == true && validateYear == true && validateCvc == true){
-        console.log('todo ok');
         formSection.style.display = 'none';
         thaksSection.style.display = 'block';
     }
